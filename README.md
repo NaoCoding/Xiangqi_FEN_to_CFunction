@@ -13,5 +13,6 @@ It may help students for testing and improve the speed for TAs to generate testc
 
 Find a Xiangqi game record or play it yourself. Copy every moves' FEN record code to the converter.
 
-![image](https://github.com/user-attachments/assets/5b96518c-eedd-4393-8aad-7489dbb0b6c3)
+![image](https://github.com/user-attachments/assets/4a73d4a0-8b13-48bc-b945-9750592adbe5)
+
 
