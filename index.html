@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiangqi FEN Record to C Function</title>
+</head>
+
+<body>
+    <h4>
+        FEN 代碼生成模擬參考：<a href="https://play.xiangqi.com/editor">https://play.xiangqi.com/editor</a> <br>
+        <a href="https://www.chessdb.cn/query/">https://www.chessdb.cn/query/</a>
+    </h4>
+    <h4 style="color: red;">請注意：這只是一個單純轉換的工具，無任何規則檢查或合法性檢查</h4>
+    <h5>僅供參考：有任何問題可以直接寄信或到 GitHub Repo 發 Issue<br>
+        祝　寫作業順利　<br>助教 上
+    </h5>
+    <textarea class="input-fen" id="fen" placeholder="輸入象棋棋譜 FEN 代碼（以行間隔）" style="width: 80%; height: 100px; overflow-y: auto;"></textarea>
+    <button onclick="convert()" style="width: 80px; height: 45px;">轉換</button>
+    <textarea class="output-fen" id="code" placeholder="轉換結果" style="width: 80%; height: 100px; overflow-y: auto;"></textarea>
+    <script src="main.js"></script>
+</body>
